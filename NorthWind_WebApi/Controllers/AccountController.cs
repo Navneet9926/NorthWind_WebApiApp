@@ -19,7 +19,7 @@ using NorthWind_WebApi.Results;
 
 namespace NorthWind_WebApi.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
